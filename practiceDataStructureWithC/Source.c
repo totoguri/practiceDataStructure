@@ -34,3 +34,10 @@
 // p.77
 
 
+int main() {
+	int* ptr_int = NULL;
+	int int_value = 100;
+	ptr_int = &int_value;
+
+	return 0;
+}
