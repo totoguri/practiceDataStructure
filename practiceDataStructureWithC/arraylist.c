@@ -62,3 +62,25 @@ int addALElement(ArrayList* pList, int position, ArrayListNode element) {
 	}
 	return ret;
 }
+
+int removeALElement(ArrayList* pList, int position) {
+	int ret = FALSE;
+	int i = 0;
+
+	if (pList != NULL) {
+		if (position >= 0 && position < pList->currentElementCount) {
+			for (i = position; i < pList->currentElementCount - 1; i++) {
+				pList->pElement[i] = pList->pElement[i + 1];
+			}
+
+			pList->currentElementCount--;
+			ret = TRUE;
+		}
+		else {
+			printf("Error, out of index-[%d] range, removeALElement() \n", position);
+		}
+	}
+
+	return ret;
+}
+
