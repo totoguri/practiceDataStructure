@@ -1,3 +1,7 @@
+// ¿­Ç÷°­ÀÇ data structure "List"
+// 22, Oct, 2021
+
+
 #ifndef _ARRAYLIST_
 #define _ARRAYLIST_
 

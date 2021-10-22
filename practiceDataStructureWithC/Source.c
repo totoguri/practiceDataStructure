@@ -1,8 +1,6 @@
 // Data Structure ¿­Ç÷ °­ÀÇ
 // Start at 21, Oct, 2021
 
-#include <stdio.h>
-
 //int main(int argc, char** argv) {
 //	int i;
 //
